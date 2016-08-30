@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D608A051CD7381900F81BEC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D608A041CD7381900F81BEC /* main.c */; };
+		2D084F251D756F7C0083C663 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D084F241D756F7C0083C663 /* main.c */; };
+		2D2021261D75726C008BBDE6 /* spiralMatrixII_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */; };
+		2D2021291D75731A008BBDE6 /* spiralMatrixII_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D2021271D75731A008BBDE6 /* spiralMatrixII_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2D6089FF1CD7381900F81BEC /* CopyFiles */ = {
+		2D084F1F1D756F7C0083C663 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D608A011CD7381900F81BEC /* CProgramExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CProgramExercise; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D608A041CD7381900F81BEC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2D084F211D756F7C0083C663 /* SpiralMatrixII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpiralMatrixII; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D084F241D756F7C0083C663 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spiralMatrixII_1.c; sourceTree = "<group>"; };
+		2D2021251D75726C008BBDE6 /* spiralMatrixII_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spiralMatrixII_1.h; sourceTree = "<group>"; };
+		2D2021271D75731A008BBDE6 /* spiralMatrixII_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spiralMatrixII_2.c; sourceTree = "<group>"; };
+		2D2021281D75731A008BBDE6 /* spiralMatrixII_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spiralMatrixII_2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D6089FE1CD7381900F81BEC /* Frameworks */ = {
+		2D084F1E1D756F7C0083C663 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +44,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D6089F81CD7381900F81BEC = {
+		2D084F181D756F7C0083C663 = {
 			isa = PBXGroup;
 			children = (
-				2D608A031CD7381900F81BEC /* CProgramExercise */,
-				2D608A021CD7381900F81BEC /* Products */,
+				2D084F231D756F7C0083C663 /* SpiralMatrixII */,
+				2D084F221D756F7C0083C663 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2D608A021CD7381900F81BEC /* Products */ = {
+		2D084F221D756F7C0083C663 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D608A011CD7381900F81BEC /* CProgramExercise */,
+				2D084F211D756F7C0083C663 /* SpiralMatrixII */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D608A031CD7381900F81BEC /* CProgramExercise */ = {
+		2D084F231D756F7C0083C663 /* SpiralMatrixII */ = {
 			isa = PBXGroup;
 			children = (
-				2D608A041CD7381900F81BEC /* main.c */,
+				2D084F241D756F7C0083C663 /* main.c */,
+				2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */,
+				2D2021251D75726C008BBDE6 /* spiralMatrixII_1.h */,
+				2D2021271D75731A008BBDE6 /* spiralMatrixII_2.c */,
+				2D2021281D75731A008BBDE6 /* spiralMatrixII_2.h */,
 			);
-			path = CProgramExercise;
+			path = SpiralMatrixII;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D608A001CD7381900F81BEC /* CProgramExercise */ = {
+		2D084F201D756F7C0083C663 /* SpiralMatrixII */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D608A081CD7381900F81BEC /* Build configuration list for PBXNativeTarget "CProgramExercise" */;
+			buildConfigurationList = 2D084F281D756F7C0083C663 /* Build configuration list for PBXNativeTarget "SpiralMatrixII" */;
 			buildPhases = (
-				2D6089FD1CD7381900F81BEC /* Sources */,
-				2D6089FE1CD7381900F81BEC /* Frameworks */,
-				2D6089FF1CD7381900F81BEC /* CopyFiles */,
+				2D084F1D1D756F7C0083C663 /* Sources */,
+				2D084F1E1D756F7C0083C663 /* Frameworks */,
+				2D084F1F1D756F7C0083C663 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CProgramExercise;
-			productName = CProgramExercise;
-			productReference = 2D608A011CD7381900F81BEC /* CProgramExercise */;
+			name = SpiralMatrixII;
+			productName = SpiralMatrixII;
+			productReference = 2D084F211D756F7C0083C663 /* SpiralMatrixII */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2D6089F91CD7381900F81BEC /* Project object */ = {
+		2D084F191D756F7C0083C663 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "荣慧慧";
 				TargetAttributes = {
-					2D608A001CD7381900F81BEC = {
+					2D084F201D756F7C0083C663 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 2D6089FC1CD7381900F81BEC /* Build configuration list for PBXProject "CProgramExercise" */;
+			buildConfigurationList = 2D084F1C1D756F7C0083C663 /* Build configuration list for PBXProject "SpiralMatrixII" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2D6089F81CD7381900F81BEC;
-			productRefGroup = 2D608A021CD7381900F81BEC /* Products */;
+			mainGroup = 2D084F181D756F7C0083C663;
+			productRefGroup = 2D084F221D756F7C0083C663 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D608A001CD7381900F81BEC /* CProgramExercise */,
+				2D084F201D756F7C0083C663 /* SpiralMatrixII */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D6089FD1CD7381900F81BEC /* Sources */ = {
+		2D084F1D1D756F7C0083C663 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D608A051CD7381900F81BEC /* main.c in Sources */,
+				2D084F251D756F7C0083C663 /* main.c in Sources */,
+				2D2021261D75726C008BBDE6 /* spiralMatrixII_1.c in Sources */,
+				2D2021291D75731A008BBDE6 /* spiralMatrixII_2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2D608A061CD7381900F81BEC /* Debug */ = {
+		2D084F261D756F7C0083C663 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -168,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		2D608A071CD7381900F81BEC /* Release */ = {
+		2D084F271D756F7C0083C663 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,14 +216,14 @@
 			};
 			name = Release;
 		};
-		2D608A091CD7381900F81BEC /* Debug */ = {
+		2D084F291D756F7C0083C663 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2D608A0A1CD7381900F81BEC /* Release */ = {
+		2D084F2A1D756F7C0083C663 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -221,24 +233,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D6089FC1CD7381900F81BEC /* Build configuration list for PBXProject "CProgramExercise" */ = {
+		2D084F1C1D756F7C0083C663 /* Build configuration list for PBXProject "SpiralMatrixII" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D608A061CD7381900F81BEC /* Debug */,
-				2D608A071CD7381900F81BEC /* Release */,
+				2D084F261D756F7C0083C663 /* Debug */,
+				2D084F271D756F7C0083C663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D608A081CD7381900F81BEC /* Build configuration list for PBXNativeTarget "CProgramExercise" */ = {
+		2D084F281D756F7C0083C663 /* Build configuration list for PBXNativeTarget "SpiralMatrixII" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D608A091CD7381900F81BEC /* Debug */,
-				2D608A0A1CD7381900F81BEC /* Release */,
+				2D084F291D756F7C0083C663 /* Debug */,
+				2D084F2A1D756F7C0083C663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2D6089F91CD7381900F81BEC /* Project object */;
+	rootObject = 2D084F191D756F7C0083C663 /* Project object */;
 }
