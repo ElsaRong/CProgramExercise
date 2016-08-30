@@ -2,46 +2,48 @@
 //  spiralMatrixII_1.c
 //  SpiralMatrixII
 //
-//  Created by 荣慧慧 on 8/30/16.
-//  Copyright © 2016 荣慧慧. All rights reserved.
+//  Created bn 荣慧慧 on 8/30/16.
+//  Copnright © 2016 荣慧慧. All rights reserved.
 //
 
 #include <stdio.h>
 
-void spiralMatrixII_1(int n) {
+void spiralMatrixII_1(int **matrix, int len, int start, int m, int n) {
     
-    int kend=n/2;
-    int lend=n;
-    int count=1;
-    int a[15][15];
-    int i,j,k;
-    
-    for( i=0,j=0,k=0; k<kend; k++ )
-    {
-        a[i][j]=count++;
-        
-        for(j++;j<lend;j++)
-            a[i][j]=count++;
-        
-        for(i++,j--;i<lend;i++)
-            a[i][j]=count++;
-        
-        for(i--,j--;j>=k;j--)
-            a[i][j]=count++;
-        
-        for(i--,j++;i>k;i--)
-            a[i][j]=count++;
-        
-        i++;j++;lend--;
+    if (len == 1) {
+        matrix[m][n] = start;
+        return;
     }
     
-    if(n%2 != 0) a[i][j]=count;
-    
-    for( i=0; i<n; i++ )
-    {
-        for( j=0; j<n; j++ )
-            printf("%4d ",a[i][j]);
-        printf("\n");
+    if (len == 2) {
+        matrix[m][n] = start;
+        matrix[m][n++] = start++;
+        matrix[m++][n] = start++;
+        matrix[m][n--] = start++;
+        return;
     }
+    
+    for (int i=0; i<len-1; i++) {
+        matrix[m][n+i] = start++;
+    }
+
+    n = n+len-1;
+    for (int j=0; j<len-1; j++) {
+        matrix[m+j][n] = start++;
+    }
+
+    m = m+len-1;
+    for (int i=0; i<len-1; i++) {
+        matrix[m][n-i] = start++;
+    }
+
+    n = n-len+1;
+    for (int j=0; j<len-1; j++) {
+        matrix[m-j][n] = start++;
+    }
+    m = m-len+2;
+    n++;
+    
+    spiralMatrixII_1(matrix, len-2, start, m, n);
 
 }

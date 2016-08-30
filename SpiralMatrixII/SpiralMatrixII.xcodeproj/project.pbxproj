@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2D084F251D756F7C0083C663 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D084F241D756F7C0083C663 /* main.c */; };
 		2D2021261D75726C008BBDE6 /* spiralMatrixII_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */; };
-		2D2021291D75731A008BBDE6 /* spiralMatrixII_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D2021271D75731A008BBDE6 /* spiralMatrixII_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +25,9 @@
 
 /* Begin PBXFileReference section */
 		2D084F211D756F7C0083C663 /* SpiralMatrixII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpiralMatrixII; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D084F241D756F7C0083C663 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spiralMatrixII_1.c; sourceTree = "<group>"; };
-		2D2021251D75726C008BBDE6 /* spiralMatrixII_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spiralMatrixII_1.h; sourceTree = "<group>"; };
-		2D2021271D75731A008BBDE6 /* spiralMatrixII_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spiralMatrixII_2.c; sourceTree = "<group>"; };
-		2D2021281D75731A008BBDE6 /* spiralMatrixII_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spiralMatrixII_2.h; sourceTree = "<group>"; };
+		2D084F241D756F7C0083C663 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = main.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = spiralMatrixII_1.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		2D2021251D75726C008BBDE6 /* spiralMatrixII_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = spiralMatrixII_1.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +63,6 @@
 				2D084F241D756F7C0083C663 /* main.c */,
 				2D2021241D75726C008BBDE6 /* spiralMatrixII_1.c */,
 				2D2021251D75726C008BBDE6 /* spiralMatrixII_1.h */,
-				2D2021271D75731A008BBDE6 /* spiralMatrixII_2.c */,
-				2D2021281D75731A008BBDE6 /* spiralMatrixII_2.h */,
 			);
 			path = SpiralMatrixII;
 			sourceTree = "<group>";
@@ -130,7 +125,6 @@
 			files = (
 				2D084F251D756F7C0083C663 /* main.c in Sources */,
 				2D2021261D75726C008BBDE6 /* spiralMatrixII_1.c in Sources */,
-				2D2021291D75731A008BBDE6 /* spiralMatrixII_2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,10 +10,9 @@
 
 int spiral() {
     
-    return a[][];
 }
 
-void spiralMatrixII_2(int n) {
+void spiralMatrixII_2(int n, int*a, int M*N) {
     
     int a[15][15];
     int x=0,y=0;
